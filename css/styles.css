@@ -1,0 +1,411 @@
+html,
+body {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-page {
+  background: radial-gradient(
+    98.49% 351.41% at 100% 50%,
+    #a5deff 0%,
+    #e9f8ff 100%
+  );
+  width: 1360px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.baderogus-container {
+  margin-top: 50px;
+  background: #ffffff;
+  padding: 60px 56px;
+  width: 573px;
+}
+
+.header1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.header2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ff6b0a;
+  margin-top: 16px;
+}
+
+.header3 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  color: #000000;
+  margin-top: 48px;
+}
+
+.headerp {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-top: 24px;
+}
+
+.start {
+  background: #ff6b0a;
+  border-radius: 8px;
+  margin-top: 48px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.gus {
+  width: 640px;
+  display: flex;
+  align-self: self-end;
+}
+
+.second {
+  width: 1360px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.ukr {
+  width: 32px;
+  margin-top: 52px;
+}
+
+.gus-facts-header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #181d1f;
+  margin-top: 16px;
+}
+
+.gus-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #181d1f;
+  margin-top: 16px;
+  width: 875px;
+}
+
+.three-facts {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1360px;
+}
+
+.fact {
+  width: 374px;
+  margin: 0 12px;
+}
+
+.fact-img {
+  width: 374px;
+}
+
+.fact-head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #181d1f;
+  margin: 12px 48px 24px 48px;
+}
+
+.fact-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181d1f;
+  width: 280px;
+  margin: 0 48px;
+}
+
+.end-page {
+  height: 366px;
+  background: radial-gradient(
+    98.49% 351.41% at 100% 50%,
+    #c4e9ff 0%,
+    #fcfeff 100%
+  );
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  align-items: center;
+  margin: 0 auto;
+  width: 1360px;
+}
+
+.ukr-logo-2 {
+  width: 32px;
+  margin-top: 62px;
+}
+
+.end-header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #181d1f;
+  margin-top: 16px;
+}
+
+.end-text {
+  width: 875px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #181d1f;
+  margin-top: 16px;
+  margin-bottom: 72px;
+}
+
+footer {
+  background-color: #fcfeff;
+  display: flex;
+  width: 1360px;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  justify-content: center;
+}
+
+.my-phone {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  text-decoration: none;
+}
+
+.my-email {
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #2979ff;
+}
+
+.contact-p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-bottom: -8px;
+}
+
+.my-contacts {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+}
+
+.copy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin: auto 36px;
+}
+
+.modal-bgd {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(27 29 31 / 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-form-container {
+  background: #ffffff;
+  padding: 32px 96px 60px 96px;
+  position: relative;
+}
+
+.trezub1 {
+  width: 32px;
+}
+
+.modal1-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-top: 32px;
+}
+
+.modal1-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.modal-form-fild {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.fild-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-bottom: 8px;
+}
+
+.fild-input {
+  background: #ffffff;
+  border: 1px solid #005bbb;
+  border-radius: 8px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #181d1f;
+  padding: 4px 8px;
+}
+
+.zapusk {
+  background: #ff6b0a;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #181d1f;
+  cursor: pointer;
+  border: 0;
+  background: none;
+}
+
+.modal-active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-bgd2 {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(27 29 31 / 70%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-form2 {
+  background: #ffffff;
+  padding: 32px 96px 60px 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.trezub2 {
+  width: 32px;
+}
+
+.modal2-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-top: 32px;
+}
+
+.modal2-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181d1f;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.close22 {
+  background: #ff6b0a;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 36px;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
